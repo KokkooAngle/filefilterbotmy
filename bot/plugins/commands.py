@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = f"{file_name} \n \n ♻️ 𝙅𝙊𝙄𝙉 :- \n @movies_hut_chat \n ♻️ 𝙅𝙊𝙄𝙉 :- \n @nmarchives",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developers', url="https://t.me/movies_hut_chat"
                                 )
                         ]
                     ]
