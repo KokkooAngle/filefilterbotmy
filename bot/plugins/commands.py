@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developers', url='https://t.me/movies_hut_chat'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://youtube.com/channel/UClUFf0R7oicCRmZSmIY8zSg')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/nmarchives')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
